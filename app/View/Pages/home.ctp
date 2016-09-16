@@ -60,7 +60,7 @@
                     <?php 
                         echo $this->Html->image('comercial.jpg', array('alt' => 'Servicios Comerciales', 'border' => '0')); 
                     ?>
-                    <img class="img-responsive service-box-image" alt="Sleek &amp; Beautiful" src="http://jose-sacra.azurewebsites.net/wp-content/uploads/2016/07/desarrollo-web.jpg">
+                    <!--<img class="img-responsive service-box-image" alt="Sleek &amp; Beautiful" src="http://jose-sacra.azurewebsites.net/wp-content/uploads/2016/07/desarrollo-web.jpg">-->
                 </div>
                 <div class="service-area">
                     <h2><a href="#">Comercial</a></h2>

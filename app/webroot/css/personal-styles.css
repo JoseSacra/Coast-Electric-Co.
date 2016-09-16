@@ -88,3 +88,28 @@ img{
     padding-top: 10px;
     margin-top: 60px;
 }
+
+/* Estilos de la Seccion de Servicios */
+
+.service-box {
+	display: block;
+	transition: all 300ms ease-out 0s;
+	margin-bottom: -120px;
+	position: relative;
+	z-index: 0;
+}
+
+
+.service-effect img.service-box-image {
+	height: 200px;
+	width: 200px;
+}
+
+.service-box img {
+	border: 2px solid #FFFFFF;
+	border-radius: 100%;
+	margin: 0 auto 16px;
+	transition: all 600ms ease-out 0s;
+	width: 200px;
+	height: 200px;
+}
