@@ -1,0 +1,10 @@
+2016-09-15 18:43:20 Error: [MissingControllerException] Controller class Favicon.icoController could not be found.
+Exception Attributes: array (
+  'class' => 'Favicon.icoController',
+  'plugin' => NULL,
+)
+Request URL: /favicon.ico?url=favicon.ico
+Stack Trace:
+#0 D:\home\site\wwwroot\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 D:\home\site\wwwroot\index.php(41): require('D:\\home\\site\\ww...')
+#2 {main}
