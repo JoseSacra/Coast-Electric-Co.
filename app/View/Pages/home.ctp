@@ -68,12 +68,15 @@
                 </div><!-- / service-area -->
             </div> <!-- / service-effect column -->
 		
-            <!--<div class="col-md-4 col-sm-6 service-effect">
+            <div class="col-md-4 col-sm-6 service-effect">
                 <div class="service-box">
-                    <img class="img-responsive service-box-image" alt="Sleek &amp; Beautiful" src="http://jose-sacra.azurewebsites.net/wp-content/themes/wallstreet/images/service3.jpg">
+                    <?php 
+                        echo $this->Html->image('alumbrado_1.jpg', array('alt' => 'Servicios Publicos', 'border' => '0')); 
+                    ?>
                 </div>
                 <div class="service-area">
-                    <h2><a href="#">Seguridad Informatica</a></h2>
+                    <h2><a href="#">Servicios Publicos</a></h2>
+                    <p>Implementacion de servicios electricos para alumbrado pubblico</p>
                 </div><!-- / service-area -->
         </div><!-- / service-effect column -->
 		
