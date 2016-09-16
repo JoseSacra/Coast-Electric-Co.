@@ -125,7 +125,7 @@ img{
 }
 .section_heading_title h1 {
     font-family:'Roboto';
-	font-weight:500;
+    font-weight:500;
     font-size: 36px;
     font-weight: normal;
     line-height: 42px;
@@ -180,8 +180,8 @@ img{
     border-radius: 100%;
     margin: 0 auto 16px;
     transition: all 600ms ease-out 0s;
-	width: 200px;
-	height: 200px;
+	width: 150px;
+	height: 150px;
 }
 .service-box1 img {
     border-radius: 100%;

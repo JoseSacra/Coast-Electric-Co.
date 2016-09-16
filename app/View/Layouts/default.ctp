@@ -109,6 +109,15 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
         <?php echo $this->fetch('content'); ?>
     </div>
     <div class="container footer">
+        <div class="footer-social-area">
+            <ul class="footer-social-icons">
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<!--                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
+            </ul>
+        </div>
         <footer>
             <p style="text-align:left;">Todos los Derechos Reservados &COPY; Coast - Electric co.</p>
         </footer>

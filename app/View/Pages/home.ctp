@@ -99,7 +99,7 @@
 
                 </div>
             </div>
-            <div class="row">
+<!--            <div class="row">
                 <div class="col-md-3 col-md-6 home-portfolio-area">
                     <div class="home-portfolio-showcase">
                         <div class="home-portfolio-showcase-media">
@@ -170,7 +170,4 @@
                 </div>
             </div>
         </div>	
-    </div>
-    <div id="Informacion">
-        <p>Aqui se mostrara informacion de contacto</p>
-    </div>
+    </div>-->
