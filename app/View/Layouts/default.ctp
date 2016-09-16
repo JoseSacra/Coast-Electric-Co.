@@ -64,10 +64,18 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
             <h1>Coast - Electric co.</h1>
             <p class="lead">Electrical Contractors, sinse 1986</p>
         </div>
-        <div>
+        <div id="idioma">
             <ul>
-                <li>En</li>
-                <li>ES</li>
+                <li>
+                    <?php 
+                        echo $this->Html->image('bandera_de_USA.gif', array('alt' => 'EN', 'class'=> 'bandera', 'border' => '0'));
+                    ?>
+                </li>
+                <li>
+                    <?php 
+                        echo $this->Html->image('mexico.jpg', array('alt' => 'ES', 'class'=> 'bandera', 'border' => '0'));
+                    ?>
+                </li>
             </ul>
         </div>
     </div>
