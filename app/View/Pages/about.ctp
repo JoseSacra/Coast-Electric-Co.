@@ -10,7 +10,7 @@
 //echo "This is the about us page";
 ?>
 
-<div class="row">
+<div id="main" class="row">
     <h2>
         HISTORY
     </h2>
