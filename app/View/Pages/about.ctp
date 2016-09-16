@@ -10,22 +10,22 @@
 //echo "This is the about us page";
 ?>
 
-<div id="main" class="row">
+<div class="container row">
     <h2>
         HISTORY
     </h2>
 </div>
-<div class="row">
+<div class="container row">
     <h2>
         MISION
     </h2>
 </div>
-<div class="row">
+<div class="container row">
     <h2>
         VISION
     </h2>
 </div>
-<div class="row">
+<div class="container row">
     <h2>
         OBJETIVOS
     </h2>
