@@ -32,33 +32,39 @@
     <div class="container">
 	<div class="row">
             <div class="section_heading_title">
-                <h1>Mis Servicios</h1>
+                <h1>Nuestros Servicios</h1>
                 <div class="pagetitle-separator">
                     <div class="pagetitle-separator-border">
                         <div class="pagetitle-separator-box"></div>
                     </div>
                 </div>
-                <p>Ofresco Grandes Servicios a mis Clientes</p>
+                <p>Ofresemos Grandes Servicios a nuestros Clientes</p>
             </div>
 	</div>	
 	<div class="row">
             <div class="col-md-4 col-sm-6 service-effect">
                 <div class="service-box">
-                    <img class="img-responsive service-box-image" alt="Sleek &amp; Beautiful" src="http://jose-sacra.azurewebsites.net/wp-content/uploads/2016/07/images.jpg">
+                    <?php 
+                        echo $this->Html->image('residencial.jpg', array('alt' => 'Servicios Residenciales', 'border' => '0')); 
+                    ?>
+                    <!--<img class="img-responsive service-box-image" alt="Sleek &amp; Beautiful" src="http://jose-sacra.azurewebsites.net/wp-content/uploads/2016/07/images.jpg">-->
                 </div>
                 <div class="service-area">
-                    <h2><a href="#">Soporte Tecnico</a></h2>
-                    <p>Realizo reparaciones y mantenimiento de Computadoras y Laptos, desde una limpieza general hasta el formateo del equipo</p>
+                    <h2><a href="#">Residencial</a></h2>
+                    <p>Realizamos todo tipo de servicios Residenciales</p>
                 </div><!-- / service-area -->
             </div> <!-- / service-effect column -->
 		
             <div class="col-md-4 col-sm-6 service-effect">
                 <div class="service-box">
+                    <?php 
+                        echo $this->Html->image('comercial.jpg', array('alt' => 'Servicios Comerciales', 'border' => '0')); 
+                    ?>
                     <img class="img-responsive service-box-image" alt="Sleek &amp; Beautiful" src="http://jose-sacra.azurewebsites.net/wp-content/uploads/2016/07/desarrollo-web.jpg">
                 </div>
                 <div class="service-area">
-                    <h2><a href="#">Desarrollo web</a></h2>
-                    <p>Diseño y desarrollo de sitios web bajo las mejores plataformas y de acuerdo a sus necesidades</p>
+                    <h2><a href="#">Comercial</a></h2>
+                    <p>Diseño y desarrollo de servicios electricos comerciales</p>
                 </div><!-- / service-area -->
             </div> <!-- / service-effect column -->
 		
