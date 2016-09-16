@@ -7,4 +7,26 @@
  * @since         CakePHP(tm) v 0.10.0.1076
  */
 
-echo "This is the about us page";
+//echo "This is the about us page";
+?>
+
+<div class="row">
+    <h2>
+        HISTORY
+    </h2>
+</div>
+<div class="row">
+    <h2>
+        MISION
+    </h2>
+</div>
+<div class="row">
+    <h2>
+        VISION
+    </h2>
+</div>
+<div class="row">
+    <h2>
+        OBJETIVOS
+    </h2>
+</div>
