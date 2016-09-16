@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/09/2016, 07:56:52 PM
+    Author     : José Sacramento Muñoz Pérez
+*/
+
+body, .jumbotron{
+    background-color: #3d3d3d;
+    color: white;
+}
+
+footer{
+    background: black;
+     border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+    color:white;
+    padding: 15px;
+
+}
+
+img{
+    max-height: 500px;
+    vertical-align: baseline;
+}
+
+.jumbotron{
+    margin-bottom: 5px;
+    padding-top:5px;
+    padding-bottom:0px;
+}
+
+.navbar-inverse,footer{
+    background-color: #000;
+    margin-bottom: 0px;
+}
+#menu > a:hover{
+    color: #ffffff;
+    background-color: #847f67;
+}
+
+.body-content{
+    background-color:white;
+    color:black;
+    min-height: 400px;
+    padding-bottom:40px;
+}
+
+.footer{
+    background-color:black;
+    min-height:50px;
+}
+
+/* Estilos Slider */
+
+.slides li img{margin: 0 auto;}
+#main{padding-top: 20px;}
+.center{text-align: center;}
+
+/* Correcciones de estilo del slider */
+#slider{padding-bottom: 40px;}
+#slider .flex-direction-nav li a.prev {left: -16px;}
+#slider .flex-direction-nav li a.next {right: -24px;}
+
+#main{
+    
+    box-shadow: 5px 5px 10px 15px #888888;
+    margin: auto;
+    margin-top: 20px;
+    max-height: 600px;
+    max-width: 900px; 
+}
+/* Estilo del Logotipo en el Header */
+#Logo{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+#Informacion{
+    border-top: 1px captiontext solid;
+    padding-top: 10px;
+    margin-top: 60px;
+}
