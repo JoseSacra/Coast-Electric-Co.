@@ -31,14 +31,14 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 		echo $this->Html->meta('icon');
 
 		echo $this->Html->css('normalize');
-                echo $this->Html->css('bootstrap');
+               /* echo $this->Html->css('bootstrap');
                 echo $this->Html->css('flexslider');
                 echo $this->Html->css('slider');
                 echo $this->Html->css('personal-styles');
                 
                 echo $this->Html->script('jquery-3.1.0.min');
                 echo $this->Html->script('bootstrap.min');
-                echo $this->Html->script('jquery.flexslider-min');
+                echo $this->Html->script('jquery.flexslider-min');*/
                 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
