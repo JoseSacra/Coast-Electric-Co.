@@ -50,12 +50,13 @@ img{
     background-color:white;
     color:black;
     min-height: 400px;
-    padding-bottom:40px;
+    /*padding-bottom:40px;*/
 }
 
 .footer{
     background-color:black;
     min-height:50px;
+    margin-left: -15px;
 }
 
 /* Estilos Slider */
@@ -169,9 +170,10 @@ img{
 .service-box {
     display: block;
     transition: all 300ms ease-out 0s;
-	margin-bottom: -120px;
-	position: relative;
-	z-index: 0;
+    margin-bottom: -120px;
+    position: relative;
+    z-index: 0;
+    text-align: center;
 }
 .service-box img {
 	border: 2px solid #FFFFFF;
@@ -197,9 +199,10 @@ img{
 
 /* Edit by Harish For Service Image*/
 .service-area {
-	margin: 0px 0 60px;	
-	padding: 127px 30px 30px;
-	transition: background 0.3s ease-in-out 0s;
+    border: solid;
+    margin: 0px 0 60px;	
+    padding: 127px 30px 30px;
+    transition: background 0.3s ease-in-out 0s;
 }
 .service-area h2 {
     font-family:'Roboto';

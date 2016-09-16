@@ -103,15 +103,15 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="container body-content">
-            <?php echo $this->Session->flash(); ?>
-            <?php echo $this->fetch('content'); ?>
-        </div>
-        <div class="container footer">
-            <footer>
-                <p style="text-align:left;">Todos los Derechos Reservados &COPY; Coast - Electric co.</p>
-            </footer>
-        </div>
+    </div>
+    <div class="container body-content">
+        <?php echo $this->Session->flash(); ?>
+        <?php echo $this->fetch('content'); ?>
+    </div>
+    <div class="container footer">
+        <footer>
+            <p style="text-align:left;">Todos los Derechos Reservados &COPY; Coast - Electric co.</p>
+        </footer>
+    </div>
 </body>
 </html>

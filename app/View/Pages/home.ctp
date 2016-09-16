@@ -1,4 +1,5 @@
 <?php
+
 /**
  *
  *
@@ -30,7 +31,7 @@
 </div>
 <div class="service-section">
     <div class="container">
-	<div class="row">
+        <div class="row">
             <div class="section_heading_title">
                 <h1>Nuestros Servicios</h1>
                 <div class="pagetitle-separator">
@@ -40,8 +41,8 @@
                 </div>
                 <p>Ofresemos Grandes Servicios a nuestros Clientes</p>
             </div>
-	</div>	
-	<div class="row">
+        </div>	
+        <div class="row">
             <div class="col-md-4 col-sm-6 service-effect">
                 <div class="service-box">
                     <?php 
@@ -54,7 +55,7 @@
                     <p>Realizamos todo tipo de servicios Residenciales</p>
                 </div><!-- / service-area -->
             </div> <!-- / service-effect column -->
-		
+
             <div class="col-md-4 col-sm-6 service-effect">
                 <div class="service-box">
                     <?php 
@@ -67,7 +68,7 @@
                     <p>Diseño y desarrollo de servicios electricos comerciales</p>
                 </div><!-- / service-area -->
             </div> <!-- / service-effect column -->
-		
+
             <div class="col-md-4 col-sm-6 service-effect">
                 <div class="service-box">
                     <?php 
@@ -78,10 +79,98 @@
                     <h2><a href="#">Servicios Publicos</a></h2>
                     <p>Implementacion de servicios electricos para alumbrado pubblico</p>
                 </div><!-- / service-area -->
-        </div><!-- / service-effect column -->
-		
-    </div>	
-</div>
-<div id="Informacion">
-    <p>Aqui se mostrara informacion de contacto</p>
-</div>
+            </div><!-- / service-effect column -->
+
+        </div>	
+    </div>
+
+    <div class="portfolio-section">
+        <div class="container">
+
+            <div class="row">
+                <div class="section_heading_title">
+                    <h1>Featured Portfolio Project</h1>
+                    <div class="pagetitle-separator">
+                        <div class="pagetitle-separator-border">
+                            <div class="pagetitle-separator-box"></div>
+                        </div>
+                    </div>
+                    <p>Most Popular of Our Works.</p>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-md-6 home-portfolio-area">
+                    <div class="home-portfolio-showcase">
+                        <div class="home-portfolio-showcase-media">
+
+                            <img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="https://wp-themes.com/wp-content/themes/wallstreet/images/portfolio1.jpg">
+
+                            <div class="home-portfolio-showcase-overlay">
+                                <div class="home-portfolio-showcase-overlay-inner">
+                                    <div class="home-portfolio-showcase-detail">
+                                        <h4>Wall Street Style</h4>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-6 home-portfolio-area">
+                    <div class="home-portfolio-showcase">
+                        <div class="home-portfolio-showcase-media">
+
+                            <img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="https://wp-themes.com/wp-content/themes/wallstreet/images/portfolio2.jpg">
+
+                            <div class="home-portfolio-showcase-overlay">
+                                <div class="home-portfolio-showcase-overlay-inner">
+                                    <div class="home-portfolio-showcase-detail">
+                                        <h4>Wall Street Style</h4>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-6 home-portfolio-area">
+                    <div class="home-portfolio-showcase">
+                        <div class="home-portfolio-showcase-media">
+
+                            <img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="https://wp-themes.com/wp-content/themes/wallstreet/images/portfolio3.jpg">
+
+                            <div class="home-portfolio-showcase-overlay">
+                                <div class="home-portfolio-showcase-overlay-inner">
+                                    <div class="home-portfolio-showcase-detail">
+                                        <h4>Wall Street Style</h4>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-md-6 home-portfolio-area">
+                    <div class="home-portfolio-showcase">
+                        <div class="home-portfolio-showcase-media">
+
+                            <img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="https://wp-themes.com/wp-content/themes/wallstreet/images/portfolio4.jpg">
+
+                            <div class="home-portfolio-showcase-overlay">
+                                <div class="home-portfolio-showcase-overlay-inner">
+                                    <div class="home-portfolio-showcase-detail">
+                                        <h4>Wall Street Style</h4>
+                                        <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>	
+    </div>
+    <div id="Informacion">
+        <p>Aqui se mostrara informacion de contacto</p>
+    </div>
