@@ -83,7 +83,7 @@
 
         </div>	
     </div>
-
+</div>
     <div class="portfolio-section">
         <div class="container">
 

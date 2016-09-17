@@ -56,7 +56,7 @@ img{
 .footer{
     background-color:black;
     min-height:50px;
-    margin-left: -15px;
+    /*margin-left: -15px;*/
 }
 
 /* Estilos Slider */
