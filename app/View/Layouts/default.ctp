@@ -64,20 +64,20 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
             <h1>Coast - Electric co.</h1>
             <p class="lead">Electrical Contractors, sinse 1986</p>
         </div>
-<!--        <div id="idioma">
+        <div id="idioma">
             <ul>
                 <li>
                     <?php 
-//                        echo $this->Html->image('bandera_de_USA.gif', array('alt' => 'EN', 'class'=> 'bandera', 'border' => '0'));
+                        echo $this->Html->image('bandera_de_USA.gif', array('alt' => 'EN', 'class'=> 'bandera', 'border' => '0'));
                     ?>
                 </li>
                 <li>
                     <?php 
-//                        echo $this->Html->image('mexico.jpg', array('alt' => 'ES', 'class'=> 'bandera', 'border' => '0'));
+                        echo $this->Html->image('mexico.jpg', array('alt' => 'ES', 'class'=> 'bandera', 'border' => '0'));
                     ?>
                 </li>
             </ul>
-        </div>-->
+        </div>
     </div>
     
     <div class="navbar navbar-inverse navbar-fixed">
@@ -111,9 +111,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version());
     <div class="container footer">
         <div class="footer-social-area">
             <ul class="footer-social-icons">
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<!--                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-<!--                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="#"><i class="fa fa-youtube"></i></a></li>-->
             </ul>
